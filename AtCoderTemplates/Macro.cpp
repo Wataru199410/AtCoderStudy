@@ -95,4 +95,3 @@ int main() {
     // DEBUG(multi_vec, 2); // 先頭2件のみ表示
     // DEBUG(pr);
 }
-
