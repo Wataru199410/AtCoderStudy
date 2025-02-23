@@ -2,6 +2,12 @@
 using namespace std;
 #define DEBUG(var, ...) DebugPrinter::print(#var, var, ##__VA_ARGS__)
 
+// 昇順ソートマクロ
+#define sort_asc(container) sort(container.begin(), container.end())
+// 降順ソートマクロ
+#define sort_desc(container) sort(container.begin(), container.end(), greater<>())
+#define rep(i, n) for (int i = 0; i < (int)(n); i++)
+
 class DebugPrinter {
 public:
     template <typename T>
